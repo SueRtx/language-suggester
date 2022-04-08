@@ -8,9 +8,11 @@ $(document).ready(function() {
     const book=$("input:radio[name=book]:checked").val();
     const activity=$("input:radio[name=activity]:checked").val();
     const food=$("#food").val();
-  
+    
+    $(".name").text(nameInput);
+    $("userName").show();
     if (code>=1 && code<=5){
-      if (color==="red"){
+      if (color==="red" && "book===yes"){
       $("#python").show();
       $("#ruby").hide();
       $("#c").hide();
@@ -20,11 +22,16 @@ $(document).ready(function() {
       $("#ruby").hide();
       $("#diffOption").hide();
       $("#python").hide();
-    }else if (color==="blue"){
+    }else if (book==="yes"){
       $("#ruby").show();
       $("##diffOption").hide();
       $("#c").hide();
       $("#python").hide();
+    }else if (activity==="games" && food==="american"){
+      $("#ruby").show();
+      $("##diffOption").hide();
+      $("#c").hide();
+      $("#python").hide();  
     }else {
     $("#ruby").hide();
     $("##diffOption").show();
