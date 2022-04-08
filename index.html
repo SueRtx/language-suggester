@@ -19,14 +19,14 @@
         </div>
       
         <div class="form-group">
-          <label for = "code">Are you interested in coding? 1 for not likely to 5 for most likely</label>
+          <p>Are you interested in coding? <br>(1 for not likely to 5 for most likely)</p>
           <div class = "form">
             <input id = "code" class = "form-control" type="text">
           </div>
         </div>
 
         <div class="form-group">
-          <label for="colorQ2">Which color do you like the best?</label>
+          <label for="color">Which color do you like the best?</label>
           <div class="form-control">
             <label>
               <input type="radio" name="color" value="red" checked>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="form-group">
-          <label for="bookQ3">Doo you like to read?</label>
+          <p>Do you like to read?</p>
           <div class="form-control">
             <label>
               <input type="radio" name="book" value="sometime" checked>
@@ -70,7 +70,7 @@
         </div>
         
         <div class="form-group">
-          <label for="activityQ4">Which activity do you prefer??</label>
+          <p>Which activity do you prefer?</p>
           <div class="form-control">
             <label>
               <input type="radio" name="activity" value="swim" checked>
@@ -92,30 +92,35 @@
         </div>
 
         <div class="form-group">
-          <label for="foodQ5">What type of food do you prefer??</label>
-          <div class="form-control">
-            <label>
-              <input type="radio" name="food" value="american" checked>
-              american
-            </label>
-          </div>
-          <div class="form-control">
-            <label>
-              <input type="radio" name="food" value="italian">
-              italian
-            </label>
-          </div>
-          <div class="form-control">
-            <label>
-              <input type="radio" name="food" value="chinese">
-              chinese
-            </label>
-          </div>
+          <label for="food">What type of food do you prefer?</label>
+          <select class="form-control" id="food">
+            <option value="american"checked>American food</option>
+            <option value="american">Italian food</option> 
+            <option value="american">chinese food</option>
+          
         </div>
 
         <button type="submit" class="btn">Suggest program language</button>
       </form>
+    </div>
 
+    <div id="codeSuggest">
+      <div id="diffOption">
+        <p>Coding might not be good idea for you!</p>
+      </div>
+
+      <div id="python">
+        <p>You should learn Python!</p>
+      </div>
+
+      <div id="c#">
+        <p>You should learn C#!</p>
+      </div>
+
+      <div id="ruby">
+        <p>You should learn Ruby!</p>
+      </div>
+    </div>
    </div>
  </body>
 </html>
