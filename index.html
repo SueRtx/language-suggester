@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scripts.js"></script 
+  <script src="js/scripts.js"></script> 
   <title></title>
 </head>
 <body>
   <div class="container">
+    
     <h1>Answer questions to see which language you should learn first.</h1>
     <div>
       <form id="formSurvey">
@@ -19,42 +19,27 @@
         </div>
       
         <div class="form-group">
-          <label for="flavorQ1">Which icecream flavor do you like the best?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flavor" value="chocolate" checked>
-              Chocolate
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flavor" value="vanilla">
-              Vanilla
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flavor" value="strawberry">
-              Strawberry
-            </label>
+          <label for = "code">Are you interested in coding? 1 for not likely to 5 for most likely</label>
+          <div class = "form">
+            <input id = "code" class = "form-control" type="text">
           </div>
         </div>
 
         <div class="form-group">
           <label for="colorQ2">Which color do you like the best?</label>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="color" value="red" checked>
               Red
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="color" value="pink">
               Pink
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="color" value="blue">
               Blue
@@ -63,42 +48,42 @@
         </div>
 
         <div class="form-group">
-          <label for="bookQ3">Which type of book do you like to read?</label>
-          <div class="radio">
+          <label for="bookQ3">Doo you like to read?</label>
+          <div class="form-control">
             <label>
-              <input type="radio" name="book" value="fiction" checked>
-              Fiction
+              <input type="radio" name="book" value="sometime" checked>
+              Sometime
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
-              <input type="radio" name="book" value="horror">
-              Horror
+              <input type="radio" name="book" value="no">
+             No
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
-              <input type="radio" name="book" value="comic">
-              Comic
+              <input type="radio" name="book" value="yes">
+              Yes
             </label>
           </div>
         </div>
         
         <div class="form-group">
           <label for="activityQ4">Which activity do you prefer??</label>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="activity" value="swim" checked>
               Swim
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="activity" value="movie">
               Movie
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="activity" value="games">
               games
@@ -107,20 +92,20 @@
         </div>
 
         <div class="form-group">
-          <label for="foodQ5">What type of restourant do uou prefer??</label>
-          <div class="radio">
+          <label for="foodQ5">What type of food do you prefer??</label>
+          <div class="form-control">
             <label>
               <input type="radio" name="food" value="american" checked>
               american
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="food" value="italian">
               italian
             </label>
           </div>
-          <div class="radio">
+          <div class="form-control">
             <label>
               <input type="radio" name="food" value="chinese">
               chinese
@@ -128,11 +113,7 @@
           </div>
         </div>
 
-          
-
-
-
-
+        <button type="submit" class="btn">Suggest program language</button>
       </form>
 
    </div>
