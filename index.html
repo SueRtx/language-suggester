@@ -9,12 +9,14 @@
 </head>
 <body>
   <div class="container">
-    
-    <h1>Answer questions to see which language you should learn first.</h1>
+    <h1><strong>Programming Language Suggester</strong></h1>
+    <h2>Answer questions to see which language you should learn.</h2>
+    <img src="img/brain.png" alt="Brain with pink glasses">  
     <div>
       <form id="formOne">
         <div class="form-group">
-          <label for="name">A name</label>
+          
+          <label for="name">Whast is your Name?</label>
           <input id="name" class="form-control" type="text">
         </div>
       
@@ -26,7 +28,8 @@
         </div>
 
         <div class="form-group">
-          <label for="color">Which color do you like the best?</label>
+          
+          <label for="color">label>Which color do you like the best?></label>
           <div class="form-control">
             <label>
               <input type="radio" name="color" value="red" checked>
@@ -74,38 +77,43 @@
           <div class="form-control">
             <label>
               <input type="radio" name="activity" value="swim" checked>
-              Swim
+              Swimming in the ocean.
             </label>
           </div>
           <div class="form-control">
             <label>
               <input type="radio" name="activity" value="movie">
-              Movie
+              Watch movies at home.
             </label>
           </div>
           <div class="form-control">
             <label>
               <input type="radio" name="activity" value="games">
-              games
+              Play computer games on-line.
             </label>
           </div>
         </div>
 
         <div class="form-group">
-          <label for="food">What type of food do you prefer?</label>
+          
+          <label for="food">What is your favorite type of food?</label>
           <select class="form-control" id="food">
             <option value="american"checked>American food</option>
             <option value="italian">Italian food</option> 
             <option value="chinese">Chinese food</option>
           </select>
         </div>
-
-        <button type="submit" id="button" class="btn btn-info">Submit</button>
+        <div id="summit">
+          <button type="submit" id="button" class="btn btn-info">Submit</button>
+        </div>  
       </form>
     
 </div> 
     <div id="codeSuggest">
-     
+      <div id="user">
+        <p>Hello <span class="name"></span>!</p>
+      </div>
+
       <div id="diffOption">
         <p>Coding might not be good idea for you!</p>
       </div>

@@ -7,10 +7,33 @@ $(document).ready(function() {
     const color=$("input:radio[name=color]:checked").val();
     const book=$("input:radio[name=book]:checked").val();
     const activity=$("input:radio[name=activity]:checked").val();
-    const food=$("input:radio[name=food]:checked").val();
+    const food=$("#food").val();
+    $("#user").show();
+    if (code<=2){
+      $("#ruby").hide();
+      $("#c").hide();
+      $("#python").hide();
+      $("#diffOption").show();   
+    }
+    else if (color==="red"){
+      $("#python").show();
+      ("#ruby").hide();
+      $("#c").hide();
+      $("#diffOption").hide();
+    }
+      
+    else if (color==="pink"){
+      $("#c").show();
+      ("#ruby").hide();
+      $("#diffOption").hide();
+      $("#python").hide();
+    }
  
-    $(".name").text(nameInput);  
-   
-    $("#python").show();
+    else if (color==="blue"){
+      $("#ruby").show();
+      ("##diffOption").hide();
+      $("#c").hide();
+      $("#python").hide();
+    }
   });
 });

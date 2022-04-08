@@ -1,4 +1,40 @@
-#ruby, #python, #c, #trouble, #diffOption {
+#ruby, #python, #c, #trouble, #diffOption, #user {
   display: none;
   text-decoration: underline;
+}
+.form-control {
+  width: 50%; 
+}
+body {
+  background-color: rgb(237, 207, 225);
+}
+h1 {
+  color:rgb(236, 54, 166);
+  text-align: center;
+  font-size: 45px;
+}
+h2 {
+  color:rgb(27, 154, 176);
+  margin-bottom: 3%;
+  text-align: center;
+  font-family: italic;
+  font-size: 35px;
+}
+img {
+ margin-top: 20%;
+  width: 400px;
+float: right;
+}
+p {
+  font-size: 17px;
+}
+#summit {
+  margin-left: 20%;
+  margin-bottom: 10%;
+
+}
+#codeSuggest {
+  float: right;
+  margin-top: -30%;
+  font-size: 30px;
 }
