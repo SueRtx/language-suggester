@@ -12,16 +12,16 @@
     
     <h1>Answer questions to see which language you should learn first.</h1>
     <div>
-      <form id="formSurvey">
+      <form id="formOne">
         <div class="form-group">
-          <label for="name">What is your name?</label>
+          <label for="name">A name</label>
           <input id="name" class="form-control" type="text">
         </div>
       
         <div class="form-group">
           <p>Are you interested in coding? <br>(1 for not likely to 5 for most likely)</p>
-          <div class = "form">
-            <input id = "code" class = "form-control" type="text">
+          <div class = "code">
+            <input id = "code" class = "form-control" type="number">
           </div>
         </div>
 
@@ -95,16 +95,17 @@
           <label for="food">What type of food do you prefer?</label>
           <select class="form-control" id="food">
             <option value="american"checked>American food</option>
-            <option value="american">Italian food</option> 
-            <option value="american">chinese food</option>
-          
+            <option value="italian">Italian food</option> 
+            <option value="chinese">Chinese food</option>
+          </select>
         </div>
 
-        <button type="submit" class="btn">Suggest program language</button>
+        <button type="submit" id="button" class="btn btn-info">Submit</button>
       </form>
-    </div>
-
+    
+</div> 
     <div id="codeSuggest">
+     
       <div id="diffOption">
         <p>Coding might not be good idea for you!</p>
       </div>
@@ -113,14 +114,14 @@
         <p>You should learn Python!</p>
       </div>
 
-      <div id="c#">
+      <div id="c">
         <p>You should learn C#!</p>
       </div>
 
       <div id="ruby">
         <p>You should learn Ruby!</p>
       </div>
-    </div>
+    
    </div>
  </body>
 </html>
