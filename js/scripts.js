@@ -8,32 +8,29 @@ $(document).ready(function() {
     const book=$("input:radio[name=book]:checked").val();
     const activity=$("input:radio[name=activity]:checked").val();
     const food=$("#food").val();
-    $("#user").show();
-    if (code<=2){
+  
+    if (code>=1 && code<=5){
+      if (color==="red"){
+      $("#python").show();
       $("#ruby").hide();
       $("#c").hide();
-      $("#python").hide();
-      $("#diffOption").show();   
-    }
-    else if (color==="red"){
-      $("#python").show();
-      ("#ruby").hide();
-      $("#c").hide();
       $("#diffOption").hide();
-    }
-      
-    else if (color==="pink"){
+    }else if (color==="pink"){
       $("#c").show();
-      ("#ruby").hide();
+      $("#ruby").hide();
       $("#diffOption").hide();
       $("#python").hide();
-    }
- 
-    else if (color==="blue"){
+    }else if (color==="blue"){
       $("#ruby").show();
-      ("##diffOption").hide();
+      $("##diffOption").hide();
       $("#c").hide();
       $("#python").hide();
+    }else {
+    $("#ruby").hide();
+    $("##diffOption").show();
+    $("#c").hide();
+    $("#python").hide();
     }
+  }
   });
 });
