@@ -15,16 +15,16 @@
     <div>
       <form id="formOne">
         <div class="form-group">
-          
-          <label for="name">Whast is your Name?</label>
-          <input id="name" class="form-control" type="text">
+          <label for="yourName">What is your Name?</label>
+          <input id="yourName" class="form-control" type="text">
         </div>
       
         <div class="form-group">
-          <label for="code">Are you interested in coding? <br>(1 for not likely to 5 for most likely)</label>
-          <div class = "code">
-            <input id = "code" class = "form-control" type="number">
-          </div>
+          <label for="code">Are you interested in coding? </label>
+          <select class="form-control" id="code">
+            <option value="yes"checked>Yes</option>
+            <option value="no">No</option> 
+          </select>  
         </div>
 
         <div class="form-group">
@@ -108,6 +108,7 @@
             <option value="chinese">Chinese food</option>
           </select>
         </div>
+
         <div id="summit">
           <button type="submit" id="button" class="btn btn-info">Submit</button>
         </div>  
@@ -116,11 +117,11 @@
 </div> 
     <div id="codeSuggest">
       <div id="userName">
-        <p>Hello <span class="name"></span>!</p>
+        <p>Hello <span class="yourName"></span>!</p>
       </div>
 
       <div id="diffOption">
-        <p>Coding might not be good idea for you!</p>
+        <p>Coding might not be a good idea for you!</p>
       </div>
 
       <div id="python">
