@@ -25,7 +25,6 @@ h3 {
   color:rgb(205, 57, 173);
   margin-bottom: 3%;
   text-align: centerleft;
-  
   font-size: 35px;
 }
 img {
@@ -34,14 +33,20 @@ img {
  float: right;
 }
 p {
-  font-size: 17px;
+  font-size: 20px;
 }
 #summit {
-  margin-left: 20%;
+  margin-left: 15%;
   margin-bottom: 10%;
 }
 #codeSuggest {
   border: 20px;
   margin-left: 65%;
   margin-top: -40%;
+}
+#formOne {
+  font-size: 20px ;
+  font-weight: bold;
+  accent-color: rgb(167, 58, 159);
+  color:rgb(50, 66, 188)
 }
