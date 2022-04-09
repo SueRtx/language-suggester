@@ -1,12 +1,13 @@
 #ruby, #python, #c, #trouble, #diffOption, #userName {
   display: none;
-  text-decoration: underline;
+  font-size: large;
 }
 .form-control {
-  width: 50%; 
+  width: 40%;
+  background-color:rgb(186, 234, 237) ; 
 }
 body {
-  background-color: rgb(237, 207, 225);
+  background-color: rgb(243, 186, 219);
 }
 h1 {
   color:rgb(236, 54, 166);
@@ -20,10 +21,17 @@ h2 {
   font-family: italic;
   font-size: 35px;
 }
+h3 {
+  color:rgb(205, 57, 173);
+  margin-bottom: 3%;
+  text-align: centerleft;
+  
+  font-size: 35px;
+}
 img {
- margin-top: 20%;
-  width: 400px;
-float: right;
+ margin-top: 11%;
+ width: 400px;
+ float: right;
 }
 p {
   font-size: 17px;
@@ -33,7 +41,7 @@ p {
   margin-bottom: 10%;
 }
 #codeSuggest {
-  float: right;
-  margin-top: -30%;
-  font-size: 30px;
+  border: 20px;
+  margin-left: 65%;
+  margin-top: -40%;
 }
