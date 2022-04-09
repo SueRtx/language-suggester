@@ -5,6 +5,7 @@
 * CSS
 * Bootstrap
 * jQuery
+* javaScript
 ## Description
 This browser application suggests that users decide which language they should learn by filling out questions.
 ## Setup/Installation Requirements
