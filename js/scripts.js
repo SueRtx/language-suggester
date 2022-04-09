@@ -11,40 +11,40 @@ $(document).ready(function() {
     $(".yourName").text(yourNameInput);
     $("#userName").show();
     
-    if(code==="yes"  && color==="red"){
+    if(code==="yes" && color==="red"){
       $("#python").show();
       $("#ruby").hide();
       $("#c").hide();
       $("#diffOption").hide();
+
     }else if(code==="no" && color==="pink"){
       $("#ruby").show();
       $("#python").hide();
       $("#javascript").hide();
       $("#trouble").hide();
+
     }else if(color==="blue" && code==="yes"){
       $("#c").show();
       $("#ruby").hide();
       $("#diffOption").hide();
       $("#python").hide();
-    }else if(code==="yes" && color==="pink"){
-      $("#ruby").show();
-      $("##diffOption").hide();
-      $("#c").hide();
-      $("#python").hide();
+    
     }else if(code==="no" && color==="red"){
       $("#python").show();
       $("#ruby").hide();
       $("#c").hide();
       $("#diffOption").hide();
+
     }else if(code==="no" &&  color==="blue"){
       $("#c").show();
       $("#ruby").hide();
       $("#diffOption").hide();
       $("#python").hide();
+      
     }else{
-      $("#ruby").hide();
-      $("##diffOption").show();
+      $("#diffOption").show();
       $("#c").hide();
+      $("#ruby").hide();
       $("#python").hide();
     }
    
