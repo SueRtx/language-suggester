@@ -12,39 +12,40 @@ $(document).ready(function() {
     $("#userName").show();
     
     if(code==="yes" && color==="red"){
+      $("codeSuggest").show();
       $("#python").show();
-      $("#ruby").hide();
+      $("#java").hide();
       $("#c").hide();
       $("#diffOption").hide();
 
     }else if(code==="no" && color==="pink"){
-      $("#ruby").show();
+      $("#java").show();
       $("#python").hide();
       $("#javascript").hide();
       $("#trouble").hide();
 
     }else if(color==="blue" && code==="yes"){
       $("#c").show();
-      $("#ruby").hide();
+      $("#java").hide();
       $("#diffOption").hide();
       $("#python").hide();
     
     }else if(code==="no" && color==="red"){
       $("#python").show();
-      $("#ruby").hide();
+      $("#java").hide();
       $("#c").hide();
       $("#diffOption").hide();
 
     }else if(code==="no" &&  color==="blue"){
       $("#c").show();
-      $("#ruby").hide();
+      $("#java").hide();
       $("#diffOption").hide();
       $("#python").hide();
       
     }else{
       $("#diffOption").show();
       $("#c").hide();
-      $("#ruby").hide();
+      $("#java").hide();
       $("#python").hide();
     }
    
