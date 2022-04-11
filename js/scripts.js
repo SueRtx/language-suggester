@@ -12,7 +12,6 @@ $(document).ready(function() {
     $("#userName").show();
     
     if(code==="yes" && color==="red"){
-      $("codeSuggest").show();
       $("#python").show();
       $("#java").hide();
       $("#c").hide();
